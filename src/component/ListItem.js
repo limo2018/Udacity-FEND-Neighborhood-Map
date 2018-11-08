@@ -1,0 +1,18 @@
+import React, { Component } from 'react';
+
+class ListItem extends Component {
+  render() {
+    //For each venue, the FourSquare icon and venue name are included
+    return (
+      <li
+        className="listItem" role="link" onClick={() => this.props.handleClickListItem(this.props)}>
+        <img className="VenueIcon" aria-label="icon"
+          src={this.props.categories[0].icon.prefix+"32"+this.props.categories[0].icon.suffix} alt={this.props.categories[0].name}/>
+        {this.props.name}
+        </li>
+);
+  }
+}
+
+
+export default ListItem;
