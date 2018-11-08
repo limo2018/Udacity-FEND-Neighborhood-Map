@@ -1,5 +1,6 @@
 # Neighborhood Map (React) Project
 
+
 ## Project Overview
 This is the Project 7 (Maps) in Udacity's Front End Nano-Degree program. Using React I created a single-page application featuring a map.
 
@@ -10,22 +11,17 @@ This is the Project 7 (Maps) in Udacity's Front End Nano-Degree program. Using R
 
 ## Service Worker
 To access the service worker the you need to build the project using `npm run build` and then deploy the project.
-
-The service worker will work properly in the production mood, but not in the development mood.
+The service worker lets the app load faster on subsequent visits **only in the production mood**, and gives it offline capabilities.
 
 ## Dependencies
 - [Google Map API](https://cloud.google.com/maps-platform/)
 - [React Google Maps](https://tomchentw.github.io/react-google-maps/)
 - [FourSquare API](https://developer.foursquare.com/)
 
-
 ## Create React App
-
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
-
 ## Acknowledgments
-
 - [Forest Walker - Neighborhood Map playlist](https://www.youtube.com/playlist?list=PL4rQq4MQP1crXuPtruu_eijgOUUXhcUCP)
 - [FourSquare API Documentation]( https://developer.foursquare.com/docs/api)
 - [React Google Maps Documentation](https://tomchentw.github.io/react-google-maps/#installation)
