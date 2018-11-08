@@ -8,6 +8,11 @@ This is the Project 7 (Maps) in Udacity's Front End Nano-Degree program. Using R
 - Install all project dependencies with `npm install`
 - Start the app with `npm start`
 
+## Service Worker
+To access the service worker the you need to build the project using `npm run build` and then deploy the project.
+
+The service worker will work properly in the production mood, but not in the development mood.
+
 ## Dependencies
 - [Google Map API](https://cloud.google.com/maps-platform/)
 - [React Google Maps](https://tomchentw.github.io/react-google-maps/)
@@ -17,6 +22,7 @@ This is the Project 7 (Maps) in Udacity's Front End Nano-Degree program. Using R
 ## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). You can find more information on how to perform common tasks [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
 
 ## Acknowledgments
 
