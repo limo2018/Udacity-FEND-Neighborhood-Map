@@ -38,12 +38,12 @@ import ListVenue from './ListVenue';
   };
   render() {
     return (
-      <div className="sideBar" aria-label="Side Bar" tabIndex="2">
+      <nav className="sideBar" aria-label="Side Bar" tabIndex="2">
          <header className="AppHeader" aria-label="Sidebar Header" tabIndex="3"></header>
       <input aria-label="Search Venues" tabIndex="4"
         type={"search"} id={"search"} placeholder={"Search Venues"} onChange={this.handleSearchUpdate } />
       <ListVenue {...this.props} venues={this.handleVenuesSearch()} handleClickListItem={this.props.handleClickListItem}/>
-    </div>);
+    </nav>);
   }
 }
 
