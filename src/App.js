@@ -60,7 +60,9 @@ class App extends Component {
 
   componentDidMount() {
   //Fetch the FourSquare API data
-    FourSquareAPI.search({near: "Charlottesville, VA", query: "Asian Food", limit: 10}).then(results => {
+    FourSquareAPI.search({
+      near: "Charlottesville, VA", query: "Asian Food", limit: 10
+    }).then(results => {
       const {venues} = results.response;
       const {center} = results.response.geocode.feature.geometry;
       const markers = venues.map(venue => {
@@ -77,7 +79,7 @@ class App extends Component {
     });
   }
   render() {
-    return (<div className="App" role="application">
+    return (<div className="App" role="application" tabIndex="1">
       <SideBar {...this.state} handleClickListItem ={this.handleClickListItem}/>
       <Map {...this.state} handleClickMarker={this.handleClickMarker}/>
       <Footer />
